@@ -10,6 +10,8 @@
 		A05396731F32C745008FA799 /* URUtilityManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05396691F32C745008FA799 /* URUtilityManager.framework */; };
 		A05396781F32C745008FA799 /* URUtilityManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05396771F32C745008FA799 /* URUtilityManagerTests.m */; };
 		A053967A1F32C745008FA799 /* URUtilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A053966C1F32C745008FA799 /* URUtilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05396851F32C91D008FA799 /* BSDicUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A05396831F32C91D008FA799 /* BSDicUtils.h */; };
+		A05396861F32C91D008FA799 /* BSDicUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A05396841F32C91D008FA799 /* BSDicUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		A05396721F32C745008FA799 /* URUtilityManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URUtilityManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05396771F32C745008FA799 /* URUtilityManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URUtilityManagerTests.m; sourceTree = "<group>"; };
 		A05396791F32C745008FA799 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05396831F32C91D008FA799 /* BSDicUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDicUtils.h; sourceTree = "<group>"; };
+		A05396841F32C91D008FA799 /* BSDicUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDicUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		A053966B1F32C745008FA799 /* URUtilityManager */ = {
 			isa = PBXGroup;
 			children = (
+				A05396831F32C91D008FA799 /* BSDicUtils.h */,
+				A05396841F32C91D008FA799 /* BSDicUtils.m */,
 				A053966C1F32C745008FA799 /* URUtilityManager.h */,
 				A053966D1F32C745008FA799 /* Info.plist */,
 			);
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05396851F32C91D008FA799 /* BSDicUtils.h in Headers */,
 				A053967A1F32C745008FA799 /* URUtilityManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05396861F32C91D008FA799 /* BSDicUtils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
