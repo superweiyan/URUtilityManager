@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "URUtilityManager"
-  s.version      = "0.0.3"
+  s.version      = "0.0.5"
   s.summary      = "uility set, help to improve develop"
 
   # This description is used to generate tags and improve search results.
