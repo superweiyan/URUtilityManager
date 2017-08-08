@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "URUtilityManager"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "uility set, help to improve develop"
 
   # This description is used to generate tags and improve search results.
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "Copyright (c) 2017年 URWY. All rights reserved."
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = "MIT"
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
