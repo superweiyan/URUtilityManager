@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "URUtilityManager"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "uility set, help to improve develop"
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "superweiyan" => "345917048@qq.com" }
+  s.author             = { "weiyan" => "345917048@qq.com" }
   # Or just: s.author    = "superweiyan"
   # s.authors            = { "superweiyan" => "superweiyan@163.com" }
   # s.social_media_url   = "http://twitter.com/superweiyan"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:superweiyan/URUtilityManager.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/superweiyan/URUtilityManager.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,10 +91,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "URUtilityManager", "URUtilityManager/**/*"
+  s.source_files  = "URUtilityManager/URUtilityManager/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "URUtilityManager/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
